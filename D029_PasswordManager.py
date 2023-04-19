@@ -2,6 +2,9 @@
 INFORMATION:
     • This program lets us save passwords to a file in the user computer.
     • These passwords can be manually typed OR we can auto generate them.
+    • We need 'pyperclip' module of Python to copy the password to the clipboard.
+      So we need to run the following command in the terminal - 
+      "pip install pyperclip"
     • The 'tkinter' module is used to make the Password Manager.
       [ 'tkinter' Documentations Link ]
         Link:- https://tcl.tk/man/tcl8.6/TkCmd/contents.htm
@@ -44,7 +47,7 @@ label_pass.grid(row=3, column=0)
 enter_website = Entry(width=20)
 enter_website.focus()
 enter_email = Entry(width=36)
-enter_email.insert(0, "coyousisesi@gmail.com")
+enter_email.insert(0, "youremail@gmail.com")
 enter_pass = Entry(width=20)
 # Putting the entry fields on the screen
 enter_website.grid(row=1, column=1)
