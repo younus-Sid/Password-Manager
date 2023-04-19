@@ -97,9 +97,9 @@ def addPassword():
 
 # FUNCTION TO GENERATE RANDOM PASSWORDS:-  --------------------------------------------------------
 def generatePassword():
-    total_letters = random.randint(2, 6)
-    total_numbers = random.randint(2, 4)
-    total_symbols = random.randint(2, 3)
+    total_letters = random.randint(4, 6)
+    total_numbers = random.randint(1, 3)
+    total_symbols = random.randint(1, 2)
 
     # List of all characters to be used in password
     letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
